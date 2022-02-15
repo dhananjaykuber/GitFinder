@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
       <p>
         Made with &nbsp; <FaHeart color="red" /> &nbsp; by &nbsp;
-        <a href="#">dhananjaykuber</a>
+        <a href="https://twitter.com/dhananjaykuber_">dhananjaykuber</a>
       </p>
     </footer>
   );
