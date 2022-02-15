@@ -13,6 +13,7 @@ body {
 /* container */
 .container {
   width: 100%;
+  min-height: 70vh;
 }
 
 .heading {
@@ -180,4 +181,16 @@ body {
   .user-stats .stat {
     margin-right: 8px;
   }
+}
+
+/* footer */
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer p a {
+  color: #333333;
 }
