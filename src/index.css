@@ -10,6 +10,11 @@ body {
   background: #fcf1b7;
 }
 
+/* container */
+.container {
+  width: 100%;
+}
+
 .heading {
   display: flex;
   align-items: center;
@@ -135,10 +140,11 @@ body {
 
 .user-right .user-stats {
   display: flex;
-  padding: 15px 20px;
+  padding: 10px;
   margin-top: 28px;
   border-radius: 7px;
   background: #fcf1b7;
+  width: fit-content;
 }
 
 .user-stats .stat {
@@ -155,4 +161,23 @@ body {
   font-weight: 900;
   margin-top: 7px;
   text-align: center;
+}
+
+/* Media query */
+@media only screen and (max-width: 700px) {
+  .input-field input {
+    width: 75vw;
+  }
+  .user-container {
+    width: 85vw;
+    flex-direction: column;
+    margin: 50px auto;
+  }
+  .user-right {
+    margin-top: 25px;
+    margin-left: 0px;
+  }
+  .user-stats .stat {
+    margin-right: 8px;
+  }
 }
